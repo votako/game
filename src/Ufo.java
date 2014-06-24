@@ -9,18 +9,14 @@ import java.io.IOException;
 public class Ufo extends Canvas{
     int x;
     int y;
-    String s;
     public BufferedImage imageUfo;
+    String imgName = "img/Ufo.png";
 
-    // ============================================
-    // init
-    // ============================================
     Ufo(){
-//        Cow c = new Cow();
         y = 200;
         x = 200;
 
-        try { imageUfo = ImageIO.read(new File("img/Ufo.png")); }
+        try { imageUfo = ImageIO.read(new File(imgName)); }
         catch (IOException e) { e.printStackTrace(); }
     }
 

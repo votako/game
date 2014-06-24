@@ -10,7 +10,7 @@ public class Main extends Canvas{
     private static final int WIDTH = 600;
     private static final int HEIGHT = 600;
 
-    public Ufo ufo;
+    public Ufo ufo = new Ufo();
 
 //    создание массива коров.
 //    для дальнейшего использования необходимо инициализировать кол-во.(?)
@@ -21,7 +21,6 @@ public class Main extends Canvas{
     int randCoord2 = 100 + (int)(Math.random() * ((600 - 100) + 1));
 //      конструктор класса с инициализацией переменных и добавления слушателя событий
     Main(){
-        ufo = new Ufo();
         addKeyListener(new TAdapter());
         cow[0] = new Cow(randCoord, randCoord);
         cow[1] = new Cow(randCoord2, randCoord2);
@@ -36,9 +35,6 @@ public class Main extends Canvas{
     }
 
     public static void main(String[] args){
-
-//       . зачем то необходимо для отображения Ufo
-        Ufo u = new Ufo();
 //        создаем экземпляр класса с инициализироваными коровами, отрисовкой, слушателем
         Main m = new Main();
 //          просто для выдачи стартовых координат коров
@@ -88,8 +84,8 @@ public class Main extends Canvas{
                         & ufo.y > cow[i].getY()-10 & ufo.y < cow[i].getY()+20){
 //                    если попал на корову - му
                     System.out.println("mooo eah!!");
-//                    не изменяет спрайт!!!
-                    cow[i].setImg("img/Alien_Cow.png");
+//                    не изменяет спрайт!!! WTF????
+                    cow[i].imgName = "img/Alien_Cow.png";
                     repaint();
                 }
             }

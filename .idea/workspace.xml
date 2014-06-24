@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/Main.java" line="54" />
+    <bookmark url="file://$PROJECT_DIR$/src/Main.java" line="50" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfdd7069-ba87-4491-8cc4-74638b08f955" name="Default" comment="" />
@@ -72,8 +72,10 @@
           <file leaf-file-name="Ufo.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Ufo.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="22" column="48" selection-start="527" selection-end="527" vertical-scroll-proportion="0.39452055" vertical-offset="0" max-vertical-offset="730">
-                  <folding />
+                <state line="15" column="16" selection-start="337" selection-end="337" vertical-scroll-proportion="0.369863" vertical-offset="0" max-vertical-offset="730">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -97,7 +99,7 @@
           <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="89" column="50" selection-start="3456" selection-end="3456" vertical-scroll-proportion="0.6547945" vertical-offset="1124" max-vertical-offset="1854">
+                <state line="71" column="26" selection-start="2685" selection-end="2685" vertical-scroll-proportion="0.3452055" vertical-offset="1026" max-vertical-offset="1782">
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -130,8 +132,8 @@
         <option value="$PROJECT_DIR$/src/test/Board.java" />
         <option value="$PROJECT_DIR$/src/test/Pacman.java" />
         <option value="$PROJECT_DIR$/src/Cow.java" />
-        <option value="$PROJECT_DIR$/src/Ufo.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Ufo.java" />
       </list>
     </option>
   </component>
@@ -535,7 +537,9 @@
     <entry file="file://$PROJECT_DIR$/src/Ufo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="16" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="756">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -552,7 +556,9 @@
     <entry file="file://$PROJECT_DIR$/src/Ufo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="4" selection-start="679" selection-end="729" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="756">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -578,7 +584,9 @@
     <entry file="file://$PROJECT_DIR$/src/Ufo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="5" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="612">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -604,7 +612,9 @@
     <entry file="file://$PROJECT_DIR$/src/Ufo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="18" selection-start="811" selection-end="811" vertical-scroll-proportion="0.0" vertical-offset="594" max-vertical-offset="792">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -630,7 +640,9 @@
     <entry file="file://$PROJECT_DIR$/src/Ufo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="18" selection-start="811" selection-end="811" vertical-scroll-proportion="0.0" vertical-offset="594" max-vertical-offset="792">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -656,7 +668,9 @@
     <entry file="file://$PROJECT_DIR$/src/Ufo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="12" selection-start="840" selection-end="840" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -682,7 +696,9 @@
     <entry file="file://$PROJECT_DIR$/src/Ufo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="12" selection-start="840" selection-end="840" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -708,7 +724,9 @@
     <entry file="file://$PROJECT_DIR$/src/Ufo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="62" column="4" selection-start="1783" selection-end="1783" vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="960">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -734,7 +752,9 @@
     <entry file="file://$PROJECT_DIR$/src/Ufo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="62" column="4" selection-start="1783" selection-end="1783" vertical-scroll-proportion="0.0" vertical-offset="603" max-vertical-offset="1260">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -760,7 +780,9 @@
     <entry file="file://$PROJECT_DIR$/src/Ufo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="62" column="4" selection-start="1783" selection-end="1783" vertical-scroll-proportion="0.0" vertical-offset="603" max-vertical-offset="1260">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -786,7 +808,9 @@
     <entry file="file://$PROJECT_DIR$/src/Ufo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="5" selection-start="914" selection-end="914" vertical-scroll-proportion="0.0" vertical-offset="46" max-vertical-offset="1260">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -812,7 +836,9 @@
     <entry file="file://$PROJECT_DIR$/src/Ufo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="84" column="55" selection-start="2207" selection-end="2207" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1728">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -910,14 +936,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ufo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="48" selection-start="527" selection-end="527" vertical-scroll-proportion="0.39452055" vertical-offset="0" max-vertical-offset="730">
-          <folding />
+        <state line="15" column="16" selection-start="337" selection-end="337" vertical-scroll-proportion="0.369863" vertical-offset="0" max-vertical-offset="730">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="50" selection-start="3456" selection-end="3456" vertical-scroll-proportion="0.6547945" vertical-offset="1124" max-vertical-offset="1854">
+        <state line="71" column="26" selection-start="2685" selection-end="2685" vertical-scroll-proportion="0.3452055" vertical-offset="1026" max-vertical-offset="1782">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
