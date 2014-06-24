@@ -69,7 +69,7 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="Ufo.java" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="Ufo.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Ufo.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="22" column="48" selection-start="527" selection-end="527" vertical-scroll-proportion="0.39452055" vertical-offset="0" max-vertical-offset="730">
@@ -94,10 +94,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="79" column="46" selection-start="2957" selection-end="2957" vertical-scroll-proportion="0.4082192" vertical-offset="1124" max-vertical-offset="1854">
+                <state line="89" column="49" selection-start="3455" selection-end="3455" vertical-scroll-proportion="0.6547945" vertical-offset="1124" max-vertical-offset="1854">
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -908,19 +908,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="46" selection-start="2957" selection-end="2957" vertical-scroll-proportion="0.4082192" vertical-offset="1124" max-vertical-offset="1854">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Ufo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="48" selection-start="527" selection-end="527" vertical-scroll-proportion="0.39452055" vertical-offset="0" max-vertical-offset="730">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="49" selection-start="3455" selection-end="3455" vertical-scroll-proportion="0.6547945" vertical-offset="1124" max-vertical-offset="1854">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
