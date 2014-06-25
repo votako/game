@@ -10,11 +10,11 @@ public class Main extends Canvas{
     private static final int WIDTH = 600;
     private static final int HEIGHT = 600;
 
-    public Ufo ufo = new Ufo();
+    public Ufo ufo = new Ufo(0, 0);
 
 //    создание массива коров.
 //    для дальнейшего использования необходимо инициализировать кол-во.(?)
-    public Cow cow[] = new Cow[3];
+    public Cow cow[] = new Cow[5];
     public int cowLength = cow.length;
 
 //      конструктор класса с инициализацией переменных и добавления слушателя событий
@@ -23,15 +23,17 @@ public class Main extends Canvas{
 //        создание коров
         for(int i=0; i<cowLength; i++){
             //      случайные числа для старта коров.
-            int randCoord = 100 + (int)(Math.random() * ((600 - 100) + 1));
+            int randCoord = 10 + (int)(Math.random() * ((500 - 10) + 1));
+            int randCoord2 = 10 + (int)(Math.random() * ((500 - 10) + 1));
 //            инициализация коров по ^
-            cow[i] = new Cow(randCoord, randCoord);
+            cow[i] = new Cow(randCoord, randCoord2);
         }
     }
 //    отрисовка компонентов(коровы, НЛО)
 //    порядок отрисовки имеет значение.
 //    если НЛО инициализировать первыми, отображатся будет ПОД коровами
     public void paint(Graphics g){
+        g.drawLine(1, 1, 300, 300);
         for (int i=0; i<cowLength; i++){
             g.drawImage(cow[i].getImg(), cow[i].x, cow[i].y, null);
         }
@@ -41,11 +43,11 @@ public class Main extends Canvas{
     public static void main(String[] args){
 //        создаем экземпляр класса с инициализироваными коровами, отрисовкой, слушателем
         Main m = new Main();
-
+           m.setPreferredSize(new Dimension(WIDTH, HEIGHT));
 //          создаем фрейм с закрытием по крестику, размером и видимостью
         JFrame f = new JFrame();
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        f.setSize(WIDTH, HEIGHT);
+        f.setSize(new Dimension(WIDTH, HEIGHT));
         f.setVisible(true);
 //        помещаем на фрейм экземпляр класса
         f.add(m);
@@ -58,24 +60,24 @@ public class Main extends Canvas{
             int key = e.getKeyCode();
             switch (key){
                 case KeyEvent.VK_LEFT:
-                    ufo.setX(ufo.x -= 10);
-                    repaint(ufo.x-9, ufo.y-9, ufo.x, ufo.y);
-                    System.out.println(ufo.x);
+                    ufo.x -= 10;
+                    repaint(ufo.x-9, ufo.y-9, ufo.x+10, ufo.y+10);
+//                    System.out.println(ufo.x);
                     break;
                 case KeyEvent.VK_RIGHT:
                     ufo.x += 10;
-                    repaint(ufo.x-9, ufo.y-9, ufo.x, ufo.y);
-                    System.out.println(ufo.x);
+                    repaint(ufo.x-9, ufo.y-9, ufo.x+10, ufo.y+10);
+//                    System.out.println(ufo.x);
                     break;
                 case KeyEvent.VK_UP:
                     ufo.y -= 10;
-                    repaint(ufo.x-9, ufo.y-9, ufo.x, ufo.y);
-                    System.out.println(ufo.y);
+                    repaint(ufo.x-9, ufo.y-9, ufo.x+10, ufo.y+10);
+//                    System.out.println(ufo.y);
                     break;
                 case KeyEvent.VK_DOWN:
                     ufo.y += 10;
-                    repaint(ufo.x-9, ufo.y-9, ufo.x, ufo.y);
-                    System.out.println(ufo.y);
+                    repaint(ufo.x-9, ufo.y-9, ufo.x+10, ufo.y+10);
+//                    System.out.println(ufo.y);
                     break;
             }
 //            обработка поведения при похищении
