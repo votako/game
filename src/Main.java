@@ -15,30 +15,31 @@ public class Main extends Canvas{
 //    создание массива коров.
 //    для дальнейшего использования необходимо инициализировать кол-во.(?)
     public Cow cow[] = new Cow[2];
+    public int cowLength = cow.length;
 
-//      случайные числа для старта коров.
-    int randCoord = 100 + (int)(Math.random() * ((600 - 100) + 1));
-    int randCoord2 = 100 + (int)(Math.random() * ((600 - 100) + 1));
 //      конструктор класса с инициализацией переменных и добавления слушателя событий
     Main(){
         addKeyListener(new TAdapter());
-        cow[0] = new Cow(randCoord, randCoord);
-        cow[1] = new Cow(randCoord2, randCoord2);
+//        создание коров
+        for(int i=0; i<cowLength; i++){
+            //      случайные числа для старта коров.
+            int randCoord = 100 + (int)(Math.random() * ((600 - 100) + 1));
+            cow[i] = new Cow(randCoord, randCoord);
+        }
     }
 //    отрисовка компонентов(коровы, НЛО)
 //    порядок отрисовки имеет значение.
 //    если НЛО инициализировать первыми, отображатся будет ПОД коровами
     public void paint(Graphics g){
-        g.drawImage(cow[0].getImg(), cow[0].x, cow[0].y, null);
-        g.drawImage(cow[1].getImg(), cow[1].y, cow[1].y, null);
+        for (int i=0; i<cowLength; i++){
+            g.drawImage(cow[i].getImg(), cow[i].x, cow[i].y, null);
+        }
         g.drawImage(ufo.getImg(), ufo.x, ufo.y, null);
     }
 
     public static void main(String[] args){
 //        создаем экземпляр класса с инициализироваными коровами, отрисовкой, слушателем
         Main m = new Main();
-//          просто для выдачи стартовых координат коров
-        System.out.println(m.randCoord+" "+m.randCoord2);
 
 //          создаем фрейм с закрытием по крестику, размером и видимостью
         JFrame f = new JFrame();
@@ -78,7 +79,7 @@ public class Main extends Canvas{
             }
 //            обработка поведения при похищении
 //            циклом обрабатываем всех коров
-//            затем светяем координаты с "размерами" коровы и выдаем мычание
+//            затем светяем координаты с "размерами" коровы и меняет спрайт
             for (int i=0; i<2; i++) {
                 if (ufo.x > cow[i].getX() - 10 & ufo.x < cow[i].getX() + 20
                         & ufo.y > cow[i].getY() - 10 & ufo.y < cow[i].getY() + 20) {

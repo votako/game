@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/Main.java" line="50" />
+    <bookmark url="file://$PROJECT_DIR$/src/Main.java" line="51" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfdd7069-ba87-4491-8cc4-74638b08f955" name="Default" comment="" />
@@ -80,7 +80,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Cow.java" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="Cow.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Cow.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="18" column="24" selection-start="487" selection-end="487" vertical-scroll-proportion="0.34192672" vertical-offset="0" max-vertical-offset="737">
@@ -96,10 +96,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="86" column="30" selection-start="3421" selection-end="3421" vertical-scroll-proportion="0.9023067" vertical-offset="883" max-vertical-offset="1746">
+                <state line="88" column="9" selection-start="3326" selection-end="3326" vertical-scroll-proportion="2.1492538" vertical-offset="0" max-vertical-offset="1764">
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -132,8 +132,8 @@
         <option value="$PROJECT_DIR$/src/test/Board.java" />
         <option value="$PROJECT_DIR$/src/test/Pacman.java" />
         <option value="$PROJECT_DIR$/src/Ufo.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Cow.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
@@ -499,7 +499,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3273305" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -934,21 +934,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="30" selection-start="3421" selection-end="3421" vertical-scroll-proportion="0.9023067" vertical-offset="883" max-vertical-offset="1746">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="24" selection-start="487" selection-end="487" vertical-scroll-proportion="0.34192672" vertical-offset="0" max-vertical-offset="737">
           <folding>
             <element signature="method#getX#0;class#Cow#0" expanded="true" />
             <element signature="method#getY#0;class#Cow#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="9" selection-start="3326" selection-end="3326" vertical-scroll-proportion="2.1492538" vertical-offset="0" max-vertical-offset="1764">
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
