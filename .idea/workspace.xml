@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/Main.java" line="51" />
+    <bookmark url="file://$PROJECT_DIR$/src/Main.java" line="52" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfdd7069-ba87-4491-8cc4-74638b08f955" name="Default" comment="" />
@@ -72,10 +72,8 @@
           <file leaf-file-name="Ufo.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Ufo.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="16" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                <state line="15" column="16" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="684">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -83,11 +81,8 @@
           <file leaf-file-name="Cow.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Cow.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="18" column="24" selection-start="487" selection-end="487" vertical-scroll-proportion="0.34192672" vertical-offset="0" max-vertical-offset="737">
-                  <folding>
-                    <element signature="method#getX#0;class#Cow#0" expanded="true" />
-                    <element signature="method#getY#0;class#Cow#0" expanded="true" />
-                  </folding>
+                <state line="31" column="57" selection-start="901" selection-end="901" vertical-scroll-proportion="0.6585366" vertical-offset="0" max-vertical-offset="738">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -99,7 +94,7 @@
           <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="88" column="9" selection-start="3326" selection-end="3326" vertical-scroll-proportion="2.1492538" vertical-offset="0" max-vertical-offset="1764">
+                <state line="83" column="37" selection-start="3048" selection-end="3048" vertical-scroll-proportion="0.8523035" vertical-offset="865" max-vertical-offset="1782">
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -169,7 +164,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -204,7 +199,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -345,19 +340,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -383,6 +365,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -506,12 +501,12 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12353568" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19067797" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18961865" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -537,39 +532,52 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Ufo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="16" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="756">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="15" column="16" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="684">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="32" selection-start="540" selection-end="540" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="504">
+        <state line="31" column="57" selection-start="901" selection-end="901" vertical-scroll-proportion="0.0" vertical-offset="558" max-vertical-offset="756">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="32" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="1782">
           <folding>
-            <element signature="method#getX#0;class#Cow#0" expanded="true" />
-            <element signature="method#getY#0;class#Cow#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ufo.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="16" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="756">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="32" selection-start="540" selection-end="540" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="504">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ufo.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="4" selection-start="679" selection-end="729" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="756">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="55" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="576">
-          <folding>
-            <element signature="method#getX#0;class#Cow#0" expanded="true" />
-            <element signature="method#getY#0;class#Cow#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -585,9 +593,7 @@
     <entry file="file://$PROJECT_DIR$/src/Ufo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="5" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="612">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -603,19 +609,14 @@
     <entry file="file://$PROJECT_DIR$/src/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="14" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="504">
-          <folding>
-            <element signature="method#getX#0;class#Cow#0" expanded="true" />
-            <element signature="method#getY#0;class#Cow#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ufo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="18" selection-start="811" selection-end="811" vertical-scroll-proportion="0.0" vertical-offset="594" max-vertical-offset="792">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -631,19 +632,14 @@
     <entry file="file://$PROJECT_DIR$/src/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="14" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="504">
-          <folding>
-            <element signature="method#getX#0;class#Cow#0" expanded="true" />
-            <element signature="method#getY#0;class#Cow#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ufo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="18" selection-start="811" selection-end="811" vertical-scroll-proportion="0.0" vertical-offset="594" max-vertical-offset="792">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -659,19 +655,14 @@
     <entry file="file://$PROJECT_DIR$/src/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="14" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="504">
-          <folding>
-            <element signature="method#getX#0;class#Cow#0" expanded="true" />
-            <element signature="method#getY#0;class#Cow#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ufo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="12" selection-start="840" selection-end="840" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -687,19 +678,14 @@
     <entry file="file://$PROJECT_DIR$/src/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="14" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="504">
-          <folding>
-            <element signature="method#getX#0;class#Cow#0" expanded="true" />
-            <element signature="method#getY#0;class#Cow#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ufo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="12" selection-start="840" selection-end="840" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -715,29 +701,21 @@
     <entry file="file://$PROJECT_DIR$/src/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="14" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="420">
-          <folding>
-            <element signature="method#getX#0;class#Cow#0" expanded="true" />
-            <element signature="method#getY#0;class#Cow#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ufo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="62" column="4" selection-start="1783" selection-end="1783" vertical-scroll-proportion="0.0" vertical-offset="930" max-vertical-offset="960">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="14" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="420">
-          <folding>
-            <element signature="method#getX#0;class#Cow#0" expanded="true" />
-            <element signature="method#getY#0;class#Cow#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -753,9 +731,7 @@
     <entry file="file://$PROJECT_DIR$/src/Ufo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="62" column="4" selection-start="1783" selection-end="1783" vertical-scroll-proportion="0.0" vertical-offset="603" max-vertical-offset="1260">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -771,19 +747,14 @@
     <entry file="file://$PROJECT_DIR$/src/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="14" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="504">
-          <folding>
-            <element signature="method#getX#0;class#Cow#0" expanded="true" />
-            <element signature="method#getY#0;class#Cow#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ufo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="62" column="4" selection-start="1783" selection-end="1783" vertical-scroll-proportion="0.0" vertical-offset="603" max-vertical-offset="1260">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -799,19 +770,14 @@
     <entry file="file://$PROJECT_DIR$/src/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="14" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="504">
-          <folding>
-            <element signature="method#getX#0;class#Cow#0" expanded="true" />
-            <element signature="method#getY#0;class#Cow#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ufo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="5" selection-start="914" selection-end="914" vertical-scroll-proportion="0.0" vertical-offset="46" max-vertical-offset="1260">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -827,19 +793,14 @@
     <entry file="file://$PROJECT_DIR$/src/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="14" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="486">
-          <folding>
-            <element signature="method#getX#0;class#Cow#0" expanded="true" />
-            <element signature="method#getY#0;class#Cow#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ufo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="84" column="55" selection-start="2207" selection-end="2207" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1728">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -855,50 +816,35 @@
     <entry file="file://$PROJECT_DIR$/src/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="32" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1458">
-          <folding>
-            <element signature="method#getX#0;class#Cow#0" expanded="true" />
-            <element signature="method#getY#0;class#Cow#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="65" column="28" selection-start="1695" selection-end="1695" vertical-scroll-proportion="0.0" vertical-offset="1170" max-vertical-offset="1260">
-          <folding>
-            <element signature="method#getX#0;class#Cow#0" expanded="true" />
-            <element signature="method#getY#0;class#Cow#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="58" column="14" selection-start="1520" selection-end="1520" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1206">
-          <folding>
-            <element signature="method#getX#0;class#Cow#0" expanded="true" />
-            <element signature="method#getY#0;class#Cow#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="450">
-          <folding>
-            <element signature="method#getX#0;class#Cow#0" expanded="true" />
-            <element signature="method#getY#0;class#Cow#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="450">
-          <folding>
-            <element signature="method#getX#0;class#Cow#0" expanded="true" />
-            <element signature="method#getY#0;class#Cow#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -928,25 +874,20 @@
     <entry file="file://$PROJECT_DIR$/src/Ufo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="16" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="24" selection-start="487" selection-end="487" vertical-scroll-proportion="0.34192672" vertical-offset="0" max-vertical-offset="737">
-          <folding>
-            <element signature="method#getX#0;class#Cow#0" expanded="true" />
-            <element signature="method#getY#0;class#Cow#0" expanded="true" />
-          </folding>
+        <state line="31" column="57" selection-start="901" selection-end="901" vertical-scroll-proportion="0.6585366" vertical-offset="0" max-vertical-offset="738">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="9" selection-start="3326" selection-end="3326" vertical-scroll-proportion="2.1492538" vertical-offset="0" max-vertical-offset="1764">
+        <state line="83" column="37" selection-start="3048" selection-end="3048" vertical-scroll-proportion="0.8523035" vertical-offset="865" max-vertical-offset="1782">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

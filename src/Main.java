@@ -14,7 +14,7 @@ public class Main extends Canvas{
 
 //    создание массива коров.
 //    для дальнейшего использования необходимо инициализировать кол-во.(?)
-    public Cow cow[] = new Cow[2];
+    public Cow cow[] = new Cow[3];
     public int cowLength = cow.length;
 
 //      конструктор класса с инициализацией переменных и добавления слушателя событий
@@ -24,6 +24,7 @@ public class Main extends Canvas{
         for(int i=0; i<cowLength; i++){
             //      случайные числа для старта коров.
             int randCoord = 100 + (int)(Math.random() * ((600 - 100) + 1));
+//            инициализация коров по ^
             cow[i] = new Cow(randCoord, randCoord);
         }
     }
@@ -80,7 +81,7 @@ public class Main extends Canvas{
 //            обработка поведения при похищении
 //            циклом обрабатываем всех коров
 //            затем светяем координаты с "размерами" коровы и меняет спрайт
-            for (int i=0; i<2; i++) {
+            for (int i=0; i<cowLength; i++) {
                 if (ufo.x > cow[i].getX() - 10 & ufo.x < cow[i].getX() + 20
                         & ufo.y > cow[i].getY() - 10 & ufo.y < cow[i].getY() + 20) {
 //                    если попал на корову - меняет спрайт

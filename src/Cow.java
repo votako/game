@@ -25,8 +25,11 @@ public class Cow extends Canvas{
     public int getX(){return x;}
     public int getY(){return y;}
 
+//  изменяет изображение по параметру String
     public void setImg(String imgName){
+//        пробуем считать файл
         try { imageCow = ImageIO.read(new File(imgName)); }
+//        если нет - выводим в консоль сообщения о ошибке
         catch (IOException e) { e.printStackTrace(); }
         repaint();
     }
