@@ -69,10 +69,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="Ufo.java" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="Ufo.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Ufo.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="16" selection-start="337" selection-end="337" vertical-scroll-proportion="0.369863" vertical-offset="0" max-vertical-offset="730">
+                <state line="15" column="16" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -80,10 +80,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Cow.java" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="Cow.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Cow.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="13" column="29" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+                <state line="30" column="54" selection-start="912" selection-end="912" vertical-scroll-proportion="0.6350068" vertical-offset="0" max-vertical-offset="737">
                   <folding>
                     <element signature="method#getX#0;class#Cow#0" expanded="true" />
                     <element signature="method#getY#0;class#Cow#0" expanded="true" />
@@ -99,7 +99,7 @@
           <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="71" column="26" selection-start="2685" selection-end="2685" vertical-scroll-proportion="0.3452055" vertical-offset="1026" max-vertical-offset="1782">
+                <state line="86" column="30" selection-start="3400" selection-end="3400" vertical-scroll-proportion="0.73134327" vertical-offset="1009" max-vertical-offset="1746">
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -131,16 +131,17 @@
         <option value="$PROJECT_DIR$/src/TAdapter.java" />
         <option value="$PROJECT_DIR$/src/test/Board.java" />
         <option value="$PROJECT_DIR$/src/test/Pacman.java" />
+        <option value="$PROJECT_DIR$/src/Ufo.java" />
         <option value="$PROJECT_DIR$/src/Cow.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/Ufo.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="29" />
-    <option name="width" value="1920" />
-    <option name="height" value="1055" />
+    <option name="x" value="-2" />
+    <option name="y" value="22" />
+    <option name="width" value="1924" />
+    <option name="height" value="1062" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -485,7 +486,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="29" width="1920" height="1055" extended-state="0" />
+    <frame x="-2" y="22" width="1924" height="1062" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -504,8 +505,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12379936" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19210246" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12353568" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19067797" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -924,9 +925,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ufo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="16" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="29" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+        <state line="30" column="54" selection-start="912" selection-end="912" vertical-scroll-proportion="0.6350068" vertical-offset="0" max-vertical-offset="737">
           <folding>
             <element signature="method#getX#0;class#Cow#0" expanded="true" />
             <element signature="method#getY#0;class#Cow#0" expanded="true" />
@@ -934,18 +944,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ufo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="16" selection-start="337" selection-end="337" vertical-scroll-proportion="0.369863" vertical-offset="0" max-vertical-offset="730">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="26" selection-start="2685" selection-end="2685" vertical-scroll-proportion="0.3452055" vertical-offset="1026" max-vertical-offset="1782">
+        <state line="86" column="30" selection-start="3400" selection-end="3400" vertical-scroll-proportion="0.73134327" vertical-offset="1009" max-vertical-offset="1746">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

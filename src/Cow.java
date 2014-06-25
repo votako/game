@@ -27,7 +27,8 @@ public class Cow extends Canvas{
     public int getY(){return y;}
 
     public void setImg(String imgName){
-        this.imgName = imgName;
+        try { imageCow = ImageIO.read(new File(imgName)); }
+        catch (IOException e) { e.printStackTrace(); }
         repaint();
     }
 }

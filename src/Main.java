@@ -83,9 +83,7 @@ public class Main extends Canvas{
                 if (ufo.x > cow[i].getX()-10 & ufo.x < cow[i].getX()+20
                         & ufo.y > cow[i].getY()-10 & ufo.y < cow[i].getY()+20){
 //                    если попал на корову - му
-                    System.out.println("mooo eah!!");
-//                    не изменяет спрайт!!! WTF????
-                    cow[i].imgName = "img/Alien_Cow.png";
+                    cow[i].setImg("img/Alien_Cow.png");
                     repaint();
                 }
             }
