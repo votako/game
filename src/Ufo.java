@@ -18,12 +18,20 @@ public class Ufo extends Canvas{
         this.x = x;
         this.y = y;
 
-        try { imageUfo = ImageIO.read(new File(imgName)); }
-        catch (IOException e) { e.printStackTrace(); }
+        setImg(imgName);
     }
 //  отдает изображение
     public BufferedImage getImg(){
         return imageUfo;
+    }
+
+    //  изменяет изображение по параметру String
+    public void setImg(String imgName){
+//        пробуем считать файл
+        try { imageUfo = ImageIO.read(new File(imgName)); }
+//        если нет - выводим в консоль сообщения о ошибке
+        catch (IOException e) { e.printStackTrace(); }
+        repaint();
     }
 
 }

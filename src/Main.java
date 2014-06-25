@@ -2,6 +2,7 @@ import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
+import java.awt.image.BufferStrategy;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
@@ -33,7 +34,7 @@ public class Main extends Canvas{
 //    порядок отрисовки имеет значение.
 //    если НЛО инициализировать первыми, отображатся будет ПОД коровами
     public void paint(Graphics g){
-        g.drawLine(1, 1, 300, 300);
+        g.drawOval(0,0, 200, 200);
         for (int i=0; i<cowLength; i++){
             g.drawImage(cow[i].getImg(), cow[i].x, cow[i].y, null);
         }
@@ -43,41 +44,48 @@ public class Main extends Canvas{
     public static void main(String[] args){
 //        создаем экземпляр класса с инициализироваными коровами, отрисовкой, слушателем
         Main m = new Main();
-           m.setPreferredSize(new Dimension(WIDTH, HEIGHT));
 //          создаем фрейм с закрытием по крестику, размером и видимостью
         JFrame f = new JFrame();
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         f.setSize(new Dimension(WIDTH, HEIGHT));
         f.setVisible(true);
 //        помещаем на фрейм экземпляр класса
-        f.add(m);
+        f.add(m, BorderLayout.CENTER);
     }
 
 //  меняем координаты от нажатии кнопки
+    /**
+     по нажатию клавиши определяет координаты и сверяет их с допустимыми
+     если координаты допустимы - перемещает ufo
+     * */
     class TAdapter extends KeyAdapter {
         @Override
         public void keyPressed(KeyEvent e) {
             int key = e.getKeyCode();
             switch (key){
                 case KeyEvent.VK_LEFT:
-                    ufo.x -= 10;
-                    repaint(ufo.x-9, ufo.y-9, ufo.x+10, ufo.y+10);
-//                    System.out.println(ufo.x);
+                    if (ufo.x == 0) ufo.x = 0;
+                    else ufo.x -= 5;
+                    repaint();
+                    System.out.println(ufo.x);
                     break;
                 case KeyEvent.VK_RIGHT:
-                    ufo.x += 10;
-                    repaint(ufo.x-9, ufo.y-9, ufo.x+10, ufo.y+10);
-//                    System.out.println(ufo.x);
+                    if (ufo.x == WIDTH-30) ufo.x = WIDTH-30;
+                    else ufo.x += 5;
+                    repaint();
+                    System.out.println(ufo.x);
                     break;
                 case KeyEvent.VK_UP:
-                    ufo.y -= 10;
-                    repaint(ufo.x-9, ufo.y-9, ufo.x+10, ufo.y+10);
-//                    System.out.println(ufo.y);
+                    if(ufo.y == 0) ufo.x = 0;
+                    else ufo.y -= 5;
+                    repaint();
+                    System.out.println(ufo.y);
                     break;
                 case KeyEvent.VK_DOWN:
-                    ufo.y += 10;
-                    repaint(ufo.x-9, ufo.y-9, ufo.x+10, ufo.y+10);
-//                    System.out.println(ufo.y);
+                    if (ufo.y == HEIGHT-50) ufo.y = HEIGHT-50;
+                    else ufo.y += 5;
+                    repaint();
+                    System.out.println(ufo.y);
                     break;
             }
 //            обработка поведения при похищении
