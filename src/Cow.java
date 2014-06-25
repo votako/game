@@ -16,8 +16,7 @@ public class Cow extends Canvas{
     Cow(int x, int y){
         this.x=x;
         this.y=y;
-        try { imageCow = ImageIO.read(new File(imgName)); }
-        catch (IOException e) { e.printStackTrace(); }
+        setImg(imgName);
     }
 
 //    получить картинку

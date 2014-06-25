@@ -80,10 +80,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Cow.java" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="Cow.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Cow.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="30" column="54" selection-start="912" selection-end="912" vertical-scroll-proportion="0.6350068" vertical-offset="0" max-vertical-offset="737">
+                <state line="18" column="24" selection-start="487" selection-end="487" vertical-scroll-proportion="0.34192672" vertical-offset="0" max-vertical-offset="737">
                   <folding>
                     <element signature="method#getX#0;class#Cow#0" expanded="true" />
                     <element signature="method#getY#0;class#Cow#0" expanded="true" />
@@ -96,10 +96,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="86" column="30" selection-start="3400" selection-end="3400" vertical-scroll-proportion="0.73134327" vertical-offset="1009" max-vertical-offset="1746">
+                <state line="86" column="30" selection-start="3421" selection-end="3421" vertical-scroll-proportion="0.9023067" vertical-offset="883" max-vertical-offset="1746">
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -132,8 +132,8 @@
         <option value="$PROJECT_DIR$/src/test/Board.java" />
         <option value="$PROJECT_DIR$/src/test/Pacman.java" />
         <option value="$PROJECT_DIR$/src/Ufo.java" />
-        <option value="$PROJECT_DIR$/src/Cow.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Cow.java" />
       </list>
     </option>
   </component>
@@ -934,21 +934,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cow.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="54" selection-start="912" selection-end="912" vertical-scroll-proportion="0.6350068" vertical-offset="0" max-vertical-offset="737">
+        <state line="86" column="30" selection-start="3421" selection-end="3421" vertical-scroll-proportion="0.9023067" vertical-offset="883" max-vertical-offset="1746">
           <folding>
-            <element signature="method#getX#0;class#Cow#0" expanded="true" />
-            <element signature="method#getY#0;class#Cow#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="30" selection-start="3400" selection-end="3400" vertical-scroll-proportion="0.73134327" vertical-offset="1009" max-vertical-offset="1746">
+        <state line="18" column="24" selection-start="487" selection-end="487" vertical-scroll-proportion="0.34192672" vertical-offset="0" max-vertical-offset="737">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#getX#0;class#Cow#0" expanded="true" />
+            <element signature="method#getY#0;class#Cow#0" expanded="true" />
           </folding>
         </state>
       </provider>

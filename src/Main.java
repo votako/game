@@ -79,10 +79,10 @@ public class Main extends Canvas{
 //            обработка поведения при похищении
 //            циклом обрабатываем всех коров
 //            затем светяем координаты с "размерами" коровы и выдаем мычание
-            for (int i=0; i<2; i++){
-                if (ufo.x > cow[i].getX()-10 & ufo.x < cow[i].getX()+20
-                        & ufo.y > cow[i].getY()-10 & ufo.y < cow[i].getY()+20){
-//                    если попал на корову - му
+            for (int i=0; i<2; i++) {
+                if (ufo.x > cow[i].getX() - 10 & ufo.x < cow[i].getX() + 20
+                        & ufo.y > cow[i].getY() - 10 & ufo.y < cow[i].getY() + 20) {
+//                    если попал на корову - меняет спрайт
                     cow[i].setImg("img/Alien_Cow.png");
                     repaint();
                 }
