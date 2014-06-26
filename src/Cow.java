@@ -21,30 +21,7 @@ public class Cow extends Canvas{
         this.x=x;
         this.y=y;
         setImg(imgName);
-
-//          таймер для перемещения коров
-        Timer timer = new Timer();
-        // scheduling the task at interval
-//        запускает таймер на ХЗ сколько. действует постоянно вызывая task
-//        необходимо понять как работает этот метод
-        timer.schedule(tasknew,100, 100);
     }
-
-
-    /**
-        creating timer task, timer
-    задание таймера, при этом коровы двигаются но из за отсуцтвия repaint
-    все отрисовывается когда двигаешь НЛО(там есть repaint всего холста)
-    надо найти способ двигать объекты без repaint
-     */
-    TimerTask tasknew = new TimerTask() {
-        @Override
-        public void run() {
-//            необходим способ нормального перемещения коров
-            x++;
-            System.out.println(x);
-        }
-    };
 
 //    получить картинку
     public BufferedImage getImg(){ return imageCow; }

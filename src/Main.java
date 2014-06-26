@@ -30,14 +30,28 @@ public class Main extends Canvas{
             cow[i] = new Cow(randCoord, randCoord2);
         }
     }
-//    отрисовка компонентов(коровы, НЛО)
-//    порядок отрисовки имеет значение.
-//    если НЛО инициализировать первыми, отображатся будет ПОД коровами
+/**     отрисовка компонентов(коровы, НЛО)
+        порядок отрисовки имеет значение.
+        если НЛО инициализировать первыми, отображатся будет ПОД коровами
+
+        добавил "буферизацию с
+ http://www.javaportal.ru/mobiljava/articles/Elimination_blinking.html
+        что-то не очень работает
+ */
     public void paint(Graphics g){
+        Graphics saved = g;
+        if (ufo.imageUfo != null){
+            g = ufo.getImg().getGraphics();
+        }
+
         for (int i=0; i<cowLength; i++){
             g.drawImage(cow[i].getImg(), cow[i].x, cow[i].y, null);
         }
         g.drawImage(ufo.getImg(), ufo.x, ufo.y, null);
+
+        if (g != saved){
+            saved.drawImage(ufo.getImg(), ufo.x, ufo.y, null);
+        }
     }
 
     public static void main(String[] args){
@@ -51,6 +65,9 @@ public class Main extends Canvas{
 //        помещаем на фрейм экземпляр класса
         f.add(m, BorderLayout.CENTER);
     }
+
+
+
 
 //  меняем координаты от нажатии кнопки
     /**
@@ -99,7 +116,6 @@ public class Main extends Canvas{
                         & ufo.y > cow[i].getY() - 10 & ufo.y < cow[i].getY() + 20) {
 //                    если попал на корову - меняет спрайт
                     cow[i].setImg("img/Alien_Cow.png");
-                    repaint();
                 }
             }
         }
