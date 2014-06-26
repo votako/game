@@ -33,21 +33,18 @@ public class Main extends Canvas{
 /**     отрисовка компонентов(коровы, НЛО)
         порядок отрисовки имеет значение.
         если НЛО инициализировать первыми, отображатся будет ПОД коровами
-
-        добавил "буферизацию с
- http://www.javaportal.ru/mobiljava/articles/Elimination_blinking.html
-        что-то не очень работает
  */
     public void paint(Graphics g){
+        for (int i=0; i<cowLength; i++){
+            g.drawImage(cow[i].getImg(), cow[i].x, cow[i].y, null);
+        }
+//        g.drawImage(ufo.getImg(), ufo.x, ufo.y, null);
+
         Graphics saved = g;
         if (ufo.imageUfo != null){
             g = ufo.getImg().getGraphics();
         }
 
-        for (int i=0; i<cowLength; i++){
-            g.drawImage(cow[i].getImg(), cow[i].x, cow[i].y, null);
-        }
-        g.drawImage(ufo.getImg(), ufo.x, ufo.y, null);
 
         if (g != saved){
             saved.drawImage(ufo.getImg(), ufo.x, ufo.y, null);
@@ -74,6 +71,9 @@ public class Main extends Canvas{
      по нажатию клавиши определяет координаты и сверяет их с допустимыми
      если координаты допустимы - перемещает ufo
      опять таки repaint!!!
+
+
+
      * */
     class TAdapter extends KeyAdapter {
         @Override
