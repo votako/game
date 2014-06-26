@@ -78,15 +78,15 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Cow.java" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="Cow.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Cow.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="33" column="8" selection-start="874" selection-end="874" vertical-scroll-proportion="0.5365854" vertical-offset="54" max-vertical-offset="1080">
+                <state line="42" column="60" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.80487806" vertical-offset="18" max-vertical-offset="1098">
                   <folding>
-                    <element signature="e#1130#1284#0" expanded="true" />
-                    <element signature="e#1277#1278#0" expanded="true" />
-                    <element signature="e#1344#1345#0" expanded="true" />
-                    <element signature="e#1363#1364#0" expanded="true" />
+                    <element signature="e#1182#1374#0" expanded="true" />
+                    <element signature="e#1367#1368#0" expanded="true" />
+                    <element signature="e#1434#1435#0" expanded="true" />
+                    <element signature="e#1453#1454#0" expanded="true" />
                     <element signature="method#getX#0;class#Cow#0" expanded="true" />
                     <element signature="method#getY#0;class#Cow#0" expanded="true" />
                   </folding>
@@ -98,7 +98,7 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Main.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="58" column="26" selection-start="2128" selection-end="2128" vertical-scroll-proportion="0.31707317" vertical-offset="684" max-vertical-offset="1890">
@@ -134,8 +134,8 @@
         <option value="$PROJECT_DIR$/src/Ufo.java" />
         <option value="$PROJECT_DIR$/src/Task.java" />
         <option value="$PROJECT_DIR$/src/CowMove.java" />
-        <option value="$PROJECT_DIR$/src/Cow.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Cow.java" />
       </list>
     </option>
   </component>
@@ -560,10 +560,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="57" selection-start="901" selection-end="901" vertical-scroll-proportion="0.0" vertical-offset="558" max-vertical-offset="756">
           <folding>
-            <element signature="e#1130#1284#0" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1182#1374#0" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
+            <element signature="e#1434#1435#0" expanded="true" />
+            <element signature="e#1453#1454#0" expanded="true" />
             <element signature="method#getX#0;class#Cow#0" expanded="true" />
             <element signature="method#getY#0;class#Cow#0" expanded="true" />
           </folding>
@@ -588,10 +588,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="32" selection-start="540" selection-end="540" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="504">
           <folding>
-            <element signature="e#1130#1284#0" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1182#1374#0" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
+            <element signature="e#1434#1435#0" expanded="true" />
+            <element signature="e#1453#1454#0" expanded="true" />
             <element signature="method#getX#0;class#Cow#0" expanded="true" />
             <element signature="method#getY#0;class#Cow#0" expanded="true" />
           </folding>
@@ -609,10 +609,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="55" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="576">
           <folding>
-            <element signature="e#1130#1284#0" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1182#1374#0" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
+            <element signature="e#1434#1435#0" expanded="true" />
+            <element signature="e#1453#1454#0" expanded="true" />
             <element signature="method#getX#0;class#Cow#0" expanded="true" />
             <element signature="method#getY#0;class#Cow#0" expanded="true" />
           </folding>
@@ -644,10 +644,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="14" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="504">
           <folding>
-            <element signature="e#1130#1284#0" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1182#1374#0" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
+            <element signature="e#1434#1435#0" expanded="true" />
+            <element signature="e#1453#1454#0" expanded="true" />
             <element signature="method#getX#0;class#Cow#0" expanded="true" />
             <element signature="method#getY#0;class#Cow#0" expanded="true" />
           </folding>
@@ -672,10 +672,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="14" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="504">
           <folding>
-            <element signature="e#1130#1284#0" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1182#1374#0" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
+            <element signature="e#1434#1435#0" expanded="true" />
+            <element signature="e#1453#1454#0" expanded="true" />
             <element signature="method#getX#0;class#Cow#0" expanded="true" />
             <element signature="method#getY#0;class#Cow#0" expanded="true" />
           </folding>
@@ -700,10 +700,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="14" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="504">
           <folding>
-            <element signature="e#1130#1284#0" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1182#1374#0" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
+            <element signature="e#1434#1435#0" expanded="true" />
+            <element signature="e#1453#1454#0" expanded="true" />
             <element signature="method#getX#0;class#Cow#0" expanded="true" />
             <element signature="method#getY#0;class#Cow#0" expanded="true" />
           </folding>
@@ -728,10 +728,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="14" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="504">
           <folding>
-            <element signature="e#1130#1284#0" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1182#1374#0" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
+            <element signature="e#1434#1435#0" expanded="true" />
+            <element signature="e#1453#1454#0" expanded="true" />
             <element signature="method#getX#0;class#Cow#0" expanded="true" />
             <element signature="method#getY#0;class#Cow#0" expanded="true" />
           </folding>
@@ -756,10 +756,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="14" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="420">
           <folding>
-            <element signature="e#1130#1284#0" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1182#1374#0" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
+            <element signature="e#1434#1435#0" expanded="true" />
+            <element signature="e#1453#1454#0" expanded="true" />
             <element signature="method#getX#0;class#Cow#0" expanded="true" />
             <element signature="method#getY#0;class#Cow#0" expanded="true" />
           </folding>
@@ -777,10 +777,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="14" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="420">
           <folding>
-            <element signature="e#1130#1284#0" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1182#1374#0" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
+            <element signature="e#1434#1435#0" expanded="true" />
+            <element signature="e#1453#1454#0" expanded="true" />
             <element signature="method#getX#0;class#Cow#0" expanded="true" />
             <element signature="method#getY#0;class#Cow#0" expanded="true" />
           </folding>
@@ -812,10 +812,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="14" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="504">
           <folding>
-            <element signature="e#1130#1284#0" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1182#1374#0" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
+            <element signature="e#1434#1435#0" expanded="true" />
+            <element signature="e#1453#1454#0" expanded="true" />
             <element signature="method#getX#0;class#Cow#0" expanded="true" />
             <element signature="method#getY#0;class#Cow#0" expanded="true" />
           </folding>
@@ -840,10 +840,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="14" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="504">
           <folding>
-            <element signature="e#1130#1284#0" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1182#1374#0" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
+            <element signature="e#1434#1435#0" expanded="true" />
+            <element signature="e#1453#1454#0" expanded="true" />
             <element signature="method#getX#0;class#Cow#0" expanded="true" />
             <element signature="method#getY#0;class#Cow#0" expanded="true" />
           </folding>
@@ -868,10 +868,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="14" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="486">
           <folding>
-            <element signature="e#1130#1284#0" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1182#1374#0" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
+            <element signature="e#1434#1435#0" expanded="true" />
+            <element signature="e#1453#1454#0" expanded="true" />
             <element signature="method#getX#0;class#Cow#0" expanded="true" />
             <element signature="method#getY#0;class#Cow#0" expanded="true" />
           </folding>
@@ -896,10 +896,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="32" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1458">
           <folding>
-            <element signature="e#1130#1284#0" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1182#1374#0" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
+            <element signature="e#1434#1435#0" expanded="true" />
+            <element signature="e#1453#1454#0" expanded="true" />
             <element signature="method#getX#0;class#Cow#0" expanded="true" />
             <element signature="method#getY#0;class#Cow#0" expanded="true" />
           </folding>
@@ -910,10 +910,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="65" column="28" selection-start="1695" selection-end="1695" vertical-scroll-proportion="0.0" vertical-offset="1170" max-vertical-offset="1260">
           <folding>
-            <element signature="e#1130#1284#0" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1182#1374#0" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
+            <element signature="e#1434#1435#0" expanded="true" />
+            <element signature="e#1453#1454#0" expanded="true" />
             <element signature="method#getX#0;class#Cow#0" expanded="true" />
             <element signature="method#getY#0;class#Cow#0" expanded="true" />
           </folding>
@@ -924,10 +924,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="58" column="14" selection-start="1520" selection-end="1520" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1206">
           <folding>
-            <element signature="e#1130#1284#0" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1182#1374#0" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
+            <element signature="e#1434#1435#0" expanded="true" />
+            <element signature="e#1453#1454#0" expanded="true" />
             <element signature="method#getX#0;class#Cow#0" expanded="true" />
             <element signature="method#getY#0;class#Cow#0" expanded="true" />
           </folding>
@@ -938,10 +938,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="450">
           <folding>
-            <element signature="e#1130#1284#0" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1182#1374#0" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
+            <element signature="e#1434#1435#0" expanded="true" />
+            <element signature="e#1453#1454#0" expanded="true" />
             <element signature="method#getX#0;class#Cow#0" expanded="true" />
             <element signature="method#getY#0;class#Cow#0" expanded="true" />
           </folding>
@@ -952,10 +952,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="450">
           <folding>
-            <element signature="e#1130#1284#0" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1182#1374#0" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
+            <element signature="e#1434#1435#0" expanded="true" />
+            <element signature="e#1453#1454#0" expanded="true" />
             <element signature="method#getX#0;class#Cow#0" expanded="true" />
             <element signature="method#getY#0;class#Cow#0" expanded="true" />
           </folding>
@@ -981,24 +981,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="8" selection-start="874" selection-end="874" vertical-scroll-proportion="0.5365854" vertical-offset="54" max-vertical-offset="1080">
-          <folding>
-            <element signature="e#1130#1284#0" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
-            <element signature="method#getX#0;class#Cow#0" expanded="true" />
-            <element signature="method#getY#0;class#Cow#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="58" column="26" selection-start="2128" selection-end="2128" vertical-scroll-proportion="0.31707317" vertical-offset="684" max-vertical-offset="1890">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="60" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.80487806" vertical-offset="18" max-vertical-offset="1098">
+          <folding>
+            <element signature="e#1182#1374#0" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
+            <element signature="e#1434#1435#0" expanded="true" />
+            <element signature="e#1453#1454#0" expanded="true" />
+            <element signature="method#getX#0;class#Cow#0" expanded="true" />
+            <element signature="method#getY#0;class#Cow#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

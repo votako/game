@@ -26,6 +26,7 @@ public class Cow extends Canvas{
         Timer timer = new Timer();
         // scheduling the task at interval
 //        запускает таймер на ХЗ сколько. действует постоянно вызывая task
+//        необходимо понять как работает этот метод
         timer.schedule(tasknew,100, 100);
     }
 
@@ -39,9 +40,9 @@ public class Cow extends Canvas{
     TimerTask tasknew = new TimerTask() {
         @Override
         public void run() {
+//            необходим способ нормального перемещения коров
             x++;
             System.out.println(x);
-            repaint();
         }
     };
 
