@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/Main.java" line="54" />
+    <bookmark url="file://$PROJECT_DIR$/src/Main.java" line="53" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfdd7069-ba87-4491-8cc4-74638b08f955" name="Default" comment="" />
@@ -69,20 +69,27 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="Ufo.java" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="Ufo.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Ufo.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="34" column="5" selection-start="906" selection-end="906" vertical-scroll-proportion="0.63414633" vertical-offset="0" max-vertical-offset="738">
+                <state line="36" column="1" selection-start="909" selection-end="909" vertical-scroll-proportion="0.0" vertical-offset="648" max-vertical-offset="756">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Cow.java" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="Cow.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Cow.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="36" column="0" selection-start="984" selection-end="984" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
-                  <folding />
+                <state line="33" column="8" selection-start="874" selection-end="874" vertical-scroll-proportion="0.5365854" vertical-offset="54" max-vertical-offset="1080">
+                  <folding>
+                    <element signature="e#1130#1284#0" expanded="true" />
+                    <element signature="e#1277#1278#0" expanded="true" />
+                    <element signature="e#1344#1345#0" expanded="true" />
+                    <element signature="e#1363#1364#0" expanded="true" />
+                    <element signature="method#getX#0;class#Cow#0" expanded="true" />
+                    <element signature="method#getY#0;class#Cow#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -94,10 +101,8 @@
           <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="58" column="47" selection-start="2138" selection-end="2138" vertical-scroll-proportion="0.9200542" vertical-offset="365" max-vertical-offset="1962">
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                <state line="58" column="26" selection-start="2128" selection-end="2128" vertical-scroll-proportion="0.31707317" vertical-offset="684" max-vertical-offset="1890">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -126,8 +131,10 @@
         <option value="$PROJECT_DIR$/src/TAdapter.java" />
         <option value="$PROJECT_DIR$/src/test/Board.java" />
         <option value="$PROJECT_DIR$/src/test/Pacman.java" />
-        <option value="$PROJECT_DIR$/src/Cow.java" />
         <option value="$PROJECT_DIR$/src/Ufo.java" />
+        <option value="$PROJECT_DIR$/src/Task.java" />
+        <option value="$PROJECT_DIR$/src/CowMove.java" />
+        <option value="$PROJECT_DIR$/src/Cow.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
@@ -220,23 +227,12 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration default="false" name="ga" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ga" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="game" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <option name="VM_PARAMETERS" />
@@ -292,6 +288,22 @@
     </configuration>
     <configuration default="false" name="Pacman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.Pacman" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="game" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CowMove" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CowMove" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -434,19 +446,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ga" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Ufo (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Applet.MoveIt" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Pacman" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Ufo (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Applet.MoveIt" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Pacman" />
+      <item index="4" class="java.lang.String" itemvalue="Application.CowMove" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Pacman" />
-        <item index="2" class="java.lang.String" itemvalue="Applet.MoveIt" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Ufo (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ga" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CowMove" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Pacman" />
+        <item index="3" class="java.lang.String" itemvalue="Applet.MoveIt" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Ufo (1)" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -530,26 +542,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Ufo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="9" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="57" selection-start="901" selection-end="901" vertical-scroll-proportion="0.0" vertical-offset="558" max-vertical-offset="756">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="73" column="26" selection-start="2610" selection-end="2610" vertical-scroll-proportion="0.0" vertical-offset="847" max-vertical-offset="1782">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -563,16 +559,21 @@
     <entry file="file://$PROJECT_DIR$/src/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="57" selection-start="901" selection-end="901" vertical-scroll-proportion="0.0" vertical-offset="558" max-vertical-offset="756">
-          <folding />
+          <folding>
+            <element signature="e#1130#1284#0" expanded="true" />
+            <element signature="e#1277#1278#0" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="method#getX#0;class#Cow#0" expanded="true" />
+            <element signature="method#getY#0;class#Cow#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="32" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="1782">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -586,7 +587,14 @@
     <entry file="file://$PROJECT_DIR$/src/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="32" selection-start="540" selection-end="540" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="504">
-          <folding />
+          <folding>
+            <element signature="e#1130#1284#0" expanded="true" />
+            <element signature="e#1277#1278#0" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="method#getX#0;class#Cow#0" expanded="true" />
+            <element signature="method#getY#0;class#Cow#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -600,16 +608,21 @@
     <entry file="file://$PROJECT_DIR$/src/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="55" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="576">
-          <folding />
+          <folding>
+            <element signature="e#1130#1284#0" expanded="true" />
+            <element signature="e#1277#1278#0" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="method#getX#0;class#Cow#0" expanded="true" />
+            <element signature="method#getY#0;class#Cow#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="70" column="26" selection-start="2289" selection-end="2289" vertical-scroll-proportion="0.0" vertical-offset="576" max-vertical-offset="1440">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -623,16 +636,21 @@
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="32" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1098">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="14" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="504">
-          <folding />
+          <folding>
+            <element signature="e#1130#1284#0" expanded="true" />
+            <element signature="e#1277#1278#0" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="method#getX#0;class#Cow#0" expanded="true" />
+            <element signature="method#getY#0;class#Cow#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -646,16 +664,21 @@
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="27" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0" vertical-offset="414" max-vertical-offset="990">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="14" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="504">
-          <folding />
+          <folding>
+            <element signature="e#1130#1284#0" expanded="true" />
+            <element signature="e#1277#1278#0" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="method#getX#0;class#Cow#0" expanded="true" />
+            <element signature="method#getY#0;class#Cow#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -669,16 +692,21 @@
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="990">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="14" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="504">
-          <folding />
+          <folding>
+            <element signature="e#1130#1284#0" expanded="true" />
+            <element signature="e#1277#1278#0" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="method#getX#0;class#Cow#0" expanded="true" />
+            <element signature="method#getY#0;class#Cow#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -692,16 +720,21 @@
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="37" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="594">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="14" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="504">
-          <folding />
+          <folding>
+            <element signature="e#1130#1284#0" expanded="true" />
+            <element signature="e#1277#1278#0" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="method#getX#0;class#Cow#0" expanded="true" />
+            <element signature="method#getY#0;class#Cow#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -715,16 +748,21 @@
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="37" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="585">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="14" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="420">
-          <folding />
+          <folding>
+            <element signature="e#1130#1284#0" expanded="true" />
+            <element signature="e#1277#1278#0" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="method#getX#0;class#Cow#0" expanded="true" />
+            <element signature="method#getY#0;class#Cow#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -738,16 +776,21 @@
     <entry file="file://$PROJECT_DIR$/src/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="14" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="420">
-          <folding />
+          <folding>
+            <element signature="e#1130#1284#0" expanded="true" />
+            <element signature="e#1277#1278#0" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="method#getX#0;class#Cow#0" expanded="true" />
+            <element signature="method#getY#0;class#Cow#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="1" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="375">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -761,16 +804,21 @@
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="1" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="450">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="14" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="504">
-          <folding />
+          <folding>
+            <element signature="e#1130#1284#0" expanded="true" />
+            <element signature="e#1277#1278#0" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="method#getX#0;class#Cow#0" expanded="true" />
+            <element signature="method#getY#0;class#Cow#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -784,16 +832,21 @@
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="32" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="450">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="14" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="504">
-          <folding />
+          <folding>
+            <element signature="e#1130#1284#0" expanded="true" />
+            <element signature="e#1277#1278#0" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="method#getX#0;class#Cow#0" expanded="true" />
+            <element signature="method#getY#0;class#Cow#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -807,16 +860,21 @@
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="24" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="450">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="14" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="486">
-          <folding />
+          <folding>
+            <element signature="e#1130#1284#0" expanded="true" />
+            <element signature="e#1277#1278#0" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="method#getX#0;class#Cow#0" expanded="true" />
+            <element signature="method#getY#0;class#Cow#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -830,53 +888,84 @@
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="63" column="38" selection-start="1870" selection-end="1870" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="1422">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="32" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1458">
-          <folding />
+          <folding>
+            <element signature="e#1130#1284#0" expanded="true" />
+            <element signature="e#1277#1278#0" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="method#getX#0;class#Cow#0" expanded="true" />
+            <element signature="method#getY#0;class#Cow#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="65" column="28" selection-start="1695" selection-end="1695" vertical-scroll-proportion="0.0" vertical-offset="1170" max-vertical-offset="1260">
-          <folding />
+          <folding>
+            <element signature="e#1130#1284#0" expanded="true" />
+            <element signature="e#1277#1278#0" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="method#getX#0;class#Cow#0" expanded="true" />
+            <element signature="method#getY#0;class#Cow#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="58" column="14" selection-start="1520" selection-end="1520" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1206">
-          <folding />
+          <folding>
+            <element signature="e#1130#1284#0" expanded="true" />
+            <element signature="e#1277#1278#0" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="method#getX#0;class#Cow#0" expanded="true" />
+            <element signature="method#getY#0;class#Cow#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="450">
-          <folding />
+          <folding>
+            <element signature="e#1130#1284#0" expanded="true" />
+            <element signature="e#1277#1278#0" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="method#getX#0;class#Cow#0" expanded="true" />
+            <element signature="method#getY#0;class#Cow#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="450">
-          <folding />
+          <folding>
+            <element signature="e#1130#1284#0" expanded="true" />
+            <element signature="e#1277#1278#0" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="method#getX#0;class#Cow#0" expanded="true" />
+            <element signature="method#getY#0;class#Cow#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="66" column="8" selection-start="1796" selection-end="1803" vertical-scroll-proportion="0.0" vertical-offset="1188" max-vertical-offset="1440">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -885,35 +974,31 @@
         <state line="115" column="19" selection-start="5827" selection-end="5841" vertical-scroll-proportion="0.33333334" vertical-offset="1895" max-vertical-offset="10782" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MoveIt.java">
+    <entry file="file://$PROJECT_DIR$/src/Ufo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="503" selection-end="503" vertical-scroll-proportion="0.4945055" vertical-offset="0" max-vertical-offset="2286">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state line="36" column="1" selection-start="909" selection-end="909" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Cow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="984" selection-end="984" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ufo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="5" selection-start="906" selection-end="906" vertical-scroll-proportion="0.63414633" vertical-offset="0" max-vertical-offset="738">
-          <folding />
+        <state line="33" column="8" selection-start="874" selection-end="874" vertical-scroll-proportion="0.5365854" vertical-offset="54" max-vertical-offset="1080">
+          <folding>
+            <element signature="e#1130#1284#0" expanded="true" />
+            <element signature="e#1277#1278#0" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="method#getX#0;class#Cow#0" expanded="true" />
+            <element signature="method#getY#0;class#Cow#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="47" selection-start="2138" selection-end="2138" vertical-scroll-proportion="0.9200542" vertical-offset="365" max-vertical-offset="1962">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="58" column="26" selection-start="2128" selection-end="2128" vertical-scroll-proportion="0.31707317" vertical-offset="684" max-vertical-offset="1890">
+          <folding />
         </state>
       </provider>
     </entry>

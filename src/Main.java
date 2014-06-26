@@ -8,8 +8,8 @@ import java.io.File;
 import java.io.IOException;
 
 public class Main extends Canvas{
-    private static final int WIDTH = 600;
-    private static final int HEIGHT = 600;
+    public static final int WIDTH = 600;
+    public static final int HEIGHT = 600;
 
     public Ufo ufo = new Ufo(0, 0);
 
@@ -34,7 +34,6 @@ public class Main extends Canvas{
 //    порядок отрисовки имеет значение.
 //    если НЛО инициализировать первыми, отображатся будет ПОД коровами
     public void paint(Graphics g){
-        g.drawOval(0,0, 200, 200);
         for (int i=0; i<cowLength; i++){
             g.drawImage(cow[i].getImg(), cow[i].x, cow[i].y, null);
         }
@@ -57,6 +56,7 @@ public class Main extends Canvas{
     /**
      по нажатию клавиши определяет координаты и сверяет их с допустимыми
      если координаты допустимы - перемещает ufo
+     опять таки repaint!!!
      * */
     class TAdapter extends KeyAdapter {
         @Override
@@ -88,9 +88,12 @@ public class Main extends Canvas{
                     System.out.println(ufo.y);
                     break;
             }
-//            обработка поведения при похищении
-//            циклом обрабатываем всех коров
-//            затем светяем координаты с "размерами" коровы и меняет спрайт
+            /**
+                обработка поведения при похищении
+                циклом обрабатываем всех коров
+                затем сверяем координаты с "размерами" коровы меняет спрайт
+                опять repaint. как обойтись без него?
+             */
             for (int i=0; i<cowLength; i++) {
                 if (ufo.x > cow[i].getX() - 10 & ufo.x < cow[i].getX() + 20
                         & ufo.y > cow[i].getY() - 10 & ufo.y < cow[i].getY() + 20) {
